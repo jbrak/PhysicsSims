@@ -20,4 +20,4 @@ box(pos = vector(-.2,.2,.6), size = vector(.2, .2, .2), color = color.black)
 box(pos = vector(.2,.2,.6), size = vector(.2, .2, .2), color = color.black)
 
 # Creating the Mouth
-box(pos = vector(0,-.2,.6), size= vector(.75, .2, .2), color = color.blue)
+box(pos = vector(x,-.2,.6), size= vector(.75, .2, .2), color = color.blue)
