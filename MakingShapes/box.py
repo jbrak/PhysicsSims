@@ -1,5 +1,5 @@
 from vpython import *
-
+from time import sleep
 # First Box
 box()
 
@@ -13,11 +13,11 @@ purpleRGB = color.hsv_to_rgb(purpleHSV)
 box(pos=vector(-1, 0, 0), size=vector(1, .2, .2), color=purpleHSV)
 
 # Creating a Mowhawk
-box(pos = vector(0, .6, 0), size = vector(.5, .2, 1), color = color.red)
+box(pos=vector(0, .6, 0), size=vector(.5, .2, 1), color=color.red)
 
 # Creating The Eyeballs
-box(pos = vector(-.2,.2,.6), size = vector(.2, .2, .2), color = color.black)
-box(pos = vector(.2,.2,.6), size = vector(.2, .2, .2), color = color.black)
+box(pos=vector(-.2, .2, .6), size=vector(.2, .2, .2), color=color.black)
+box(pos=vector(.2, .2, .6), size=vector(.2, .2, .2), color=color.black)
 
 # Creating the Mouth
-box(pos = vector(x,-.2,.6), size= vector(.75, .2, .2), color = color.blue)
+box = box(pos=vector(0, -.2, .6), size=vector(.75, .2, .2), color=color.blue)
